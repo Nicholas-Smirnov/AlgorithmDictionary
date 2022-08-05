@@ -29,4 +29,5 @@ def FindBitonicPoint(myList):
             myList = myList[INDEX:]
 
 
-print(FindBitonicPoint([3, 4, 11, 8, 6, 5, 4]))
+# This is an example of a bitonic list: [3, 4, 11, 8, 6, 5, 4]
+# The bitonic point is 11.
