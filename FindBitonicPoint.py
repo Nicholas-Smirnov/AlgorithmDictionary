@@ -30,3 +30,5 @@ def FindBitonicPoint(myList):
             myList = myList[:INDEX]
         elif myList[INDEX-1] < myList[INDEX]:
             myList = myList[INDEX:]
+
+# Created by Nicholas Smirnov
