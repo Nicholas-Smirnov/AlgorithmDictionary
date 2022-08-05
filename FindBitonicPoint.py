@@ -2,6 +2,9 @@
 # point and then decreases from that point to the end 
 # of the list.
 
+# An example of a bitonic list: [3, 4, 11, 8, 6, 5, 4]
+# The bitonic point is 11.
+
 # This bitonic algorithm is O(log n)
 # This is because it uses the binary search
 # algorithm to find the bitonic point.
@@ -27,7 +30,3 @@ def FindBitonicPoint(myList):
             myList = myList[:INDEX]
         elif myList[INDEX-1] < myList[INDEX]:
             myList = myList[INDEX:]
-
-
-# This is an example of a bitonic list: [3, 4, 11, 8, 6, 5, 4]
-# The bitonic point is 11.
